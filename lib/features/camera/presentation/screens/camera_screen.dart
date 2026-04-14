@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart';
-import '../../../core/constants/colors.dart';
-import '../../../shared/widgets/glass_card.dart';
+import 'package:my_app_flutter/core/constants/colors.dart';
+import 'package:my_app_flutter/shared/widgets/glass_card.dart';
 
 class CameraScreen extends StatefulWidget {
   const CameraScreen({super.key});
