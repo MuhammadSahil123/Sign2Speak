@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:lucide_icons/lucide_icons.dart';
-import '../../../shared/widgets/glass_card.dart';
-import '../widgets/stats_card.dart';
-import '../../chatbot/presentation/providers/chat_provider.dart';
+import 'package:my_app_flutter/shared/widgets/glass_card.dart';
+import 'package:my_app_flutter/features/dashboard/presentation/widgets/stats_card.dart';
+import 'package:my_app_flutter/features/chatbot/presentation/providers/chat_provider.dart';
 import 'package:my_app_flutter/core/constants/colors.dart';
 
 class DashboardScreen extends ConsumerWidget {

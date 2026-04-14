@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import 'package:intl/intl.dart';
 import 'package:my_app_flutter/core/constants/colors.dart';
-import '../domain/models/translation_history.dart';
-import '../../../shared/widgets/glass_card.dart';
+import 'package:my_app_flutter/features/history/domain/models/translation_history.dart';
+import 'package:my_app_flutter/shared/widgets/glass_card.dart';
 
 class HistoryScreen extends StatefulWidget {
   const HistoryScreen({super.key});

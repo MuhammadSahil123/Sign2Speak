@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:lucide_icons/lucide_icons.dart';
-import '../dashboard/presentation/screens/dashboard_screen.dart';
-import '../chatbot/presentation/screens/chatbot_screen.dart';
-import '../camera/presentation/screens/camera_screen.dart';
-import '../history/presentation/screens/history_screen.dart';
-import '../profile/presentation/screens/profile_screen.dart';
+import 'package:my_app_flutter/features/dashboard/presentation/screens/dashboard_screen.dart';
+import 'package:my_app_flutter/features/chatbot/presentation/screens/chatbot_screen.dart';
+import 'package:my_app_flutter/features/camera/presentation/screens/camera_screen.dart';
+import 'package:my_app_flutter/features/history/presentation/screens/history_screen.dart';
+import 'package:my_app_flutter/features/profile/presentation/screens/profile_screen.dart';
 import 'package:my_app_flutter/core/constants/colors.dart';
 
 final navigationIndexProvider = StateProvider<int>((ref) => 0);

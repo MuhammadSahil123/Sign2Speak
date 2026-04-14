@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:lucide_icons/lucide_icons.dart';
-import '../../chatbot/presentation/providers/chat_provider.dart';
+import 'package:my_app_flutter/features/chatbot/presentation/providers/chat_provider.dart';
 import 'package:my_app_flutter/core/constants/colors.dart';
-import '../../../shared/widgets/glass_card.dart';
+import 'package:my_app_flutter/shared/widgets/glass_card.dart';
 
 class ProfileScreen extends ConsumerWidget {
   const ProfileScreen({super.key});

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'core/theme/app_theme.dart';
-import 'features/navigation/main_navigation.dart';
+import 'package:my_app_flutter/core/theme/app_theme.dart';
+import 'package:my_app_flutter/features/navigation/main_navigation.dart';
 
 void main() {
   runApp(
