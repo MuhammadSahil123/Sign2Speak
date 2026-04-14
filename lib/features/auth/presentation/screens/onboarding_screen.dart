@@ -45,7 +45,7 @@ class OnboardingScreen extends ConsumerWidget {
                       size: 60,
                       color: AppColors.primary,
                     ),
-                  ).animate().scale(duration: 600.ms, curve: Curves.backOut),
+                  ).animate().scale(duration: 600.ms, curve: Curves.easeOutBack),
 
                   const SizedBox(height: 48),
 
