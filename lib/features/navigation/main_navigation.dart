@@ -6,7 +6,7 @@ import '../chatbot/presentation/screens/chatbot_screen.dart';
 import '../camera/presentation/screens/camera_screen.dart';
 import '../history/presentation/screens/history_screen.dart';
 import '../profile/presentation/screens/profile_screen.dart';
-import '../../core/constants/colors.dart';
+import 'package:my_app_flutter/core/constants/colors.dart';
 
 final navigationIndexProvider = StateProvider<int>((ref) => 0);
 

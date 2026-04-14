@@ -1,6 +1,6 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
-import '../../core/constants/colors.dart';
+import 'package:my_app_flutter/core/constants/colors.dart';
 
 class GlassCard extends StatelessWidget {
   final Widget child;

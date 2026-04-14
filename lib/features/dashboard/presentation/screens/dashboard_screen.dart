@@ -4,7 +4,7 @@ import 'package:lucide_icons/lucide_icons.dart';
 import '../../../shared/widgets/glass_card.dart';
 import '../widgets/stats_card.dart';
 import '../../chatbot/presentation/providers/chat_provider.dart';
-import '../../../core/constants/colors.dart';
+import 'package:my_app_flutter/core/constants/colors.dart';
 
 class DashboardScreen extends ConsumerWidget {
   const DashboardScreen({super.key});

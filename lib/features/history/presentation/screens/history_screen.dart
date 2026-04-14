@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import 'package:intl/intl.dart';
-import '../../core/constants/colors.dart';
+import 'package:my_app_flutter/core/constants/colors.dart';
 import '../domain/models/translation_history.dart';
 import '../../../shared/widgets/glass_card.dart';
 
