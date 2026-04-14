@@ -11,6 +11,8 @@ class ProfileScreen extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final chatState = ref.watch(chatProvider);
+    final authState = ref.watch(authProvider);
+    final user = authState.user;
 
     return Scaffold(
       appBar: AppBar(title: const Text('Profile')),
@@ -48,8 +50,8 @@ class ProfileScreen extends ConsumerWidget {
                     ],
                   ),
                   const SizedBox(height: 16),
-                  const Text('Alex Rivera', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold, color: AppColors.text)),
-                  const Text('alex.rivera@example.com', style: TextStyle(color: AppColors.textMuted, fontSize: 14)),
+                  Text(user?.name ?? 'Alex Rivera', style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold, color: AppColors.text)),
+                  Text(user?.email ?? 'alex.rivera@example.com', style: const TextStyle(color: AppColors.textMuted, fontSize: 14)),
                 ],
               ),
             ),
@@ -99,7 +101,7 @@ class ProfileScreen extends ConsumerWidget {
             SizedBox(
               width: double.infinity,
               child: OutlinedButton.icon(
-                onPressed: () {},
+                onPressed: () => ref.read(authProvider.notifier).logout(),
                 icon: const Icon(LucideIcons.logOut, size: 18),
                 label: const Text('Logout'),
                 style: OutlinedButton.styleFrom(
